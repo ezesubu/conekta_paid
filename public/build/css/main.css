@@ -1,0 +1,59 @@
+body {
+    font-size: 14px;
+    background-color: #f2f2f2;
+    font-family: 'Open Sans', helvetica;
+}
+header {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.1em 0;
+    border-bottom: 1px solid #CCC;
+}
+header * {
+    display: inline-block;
+    vertical-align: middle;
+}
+header figure {
+    max-width: 30%;
+    margin: 0;
+    padding: 0;
+}
+header figure img {
+    display: block;
+    max-width: 100%;
+}
+header h1 {
+    font-size: 1.5em;
+    width: 70%;
+    text-align: left;
+    color: #723B8C;
+    text-align: right;
+}
+section#conekta-form {
+    margin: 4em auto 0 auto;
+    max-width: 40%;
+}
+section#conekta-form .formter {
+    margin-top: 1em;
+}
+section#conekta-form .formter #goback,
+section#conekta-form .formter #spinner,
+section#conekta-form .formter #pagar-btn {
+    display: inline-block;
+    vertical-align: middle;
+}
+section#conekta-form .formter #goback {
+    width: 50%;
+}
+section#conekta-form .formter #spinner {
+    width: 20%;
+    position: relative;
+}
+section#conekta-form .formter #pagar-btn {
+    width: 30%;
+}
+section#conekta-success {
+    max-width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
