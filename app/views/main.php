@@ -26,7 +26,7 @@
             <h3 style="text-align:center;">Total: $3, 000 MXN</h3>
             <h3 style="text-align:center;">Valoración Integral + 5 días en Meridia <br> Centro de día</h3>
             <div id="errors"></div>
-            <form action="/process/payment" method="POST" id="card-form" role="form">
+            <form action="/pago-gracias" method="POST" id="card-form" role="form">
                 <fieldset class="row">
                     <legend>Informaci&oacute;n de contacto</legend>
 

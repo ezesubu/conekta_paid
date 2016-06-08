@@ -478,7 +478,7 @@ class Application extends Container implements HttpKernelInterface, TerminableIn
     }
     public static function getBootstrapFile()
     {
-        return '/var/www/html/hello-conekta-php-laravel/vendor/laravel/framework/src/Illuminate/Foundation' . '/start.php';
+        return '/var/www/html/conekta_paid/vendor/laravel/framework/src/Illuminate/Foundation' . '/start.php';
     }
     public function startExceptionHandling()
     {

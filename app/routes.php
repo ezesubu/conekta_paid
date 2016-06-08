@@ -16,4 +16,4 @@ Route::get('/', function()
 	return View::make('main');
 });
 //Bind Process Controller
-Route::resource('process/payment', 'ProcessController@payment');
+Route::resource('pago-gracias', 'ProcessController@payment');
